@@ -21,7 +21,8 @@ body {
     opacity: 0.8; /* transparência*/
     padding: 20px;
     border-radius: 25px;
-    
+
+       
 }
 input{
     border: none; /* borda do elemento */
@@ -48,7 +49,7 @@ button{
 }
 .caixa-media{
     margin-top: 20px;
-    
+    margin-left: 0%;
 
 }
 .caixa-menor{
@@ -68,12 +69,18 @@ button:hover{
 h2 {
     color:white ;
     font-size: 28px; /*tamanho do texto */
-}
-.temp {
-    color: white;
-    margin-top: 30px;
+} 
+
+.temp{color:#ffffff;
+    margin-top: 5px;
+    font-size: 25px;}
     
-}
+    .temp-max{color: red;
+    margin-top: 20px;}
+    
+    .temp-min{color: blue;
+    margin-top: 10px;}
+
 
 .descricao {
     color: white;
@@ -82,5 +89,5 @@ h2 {
 }
 .umidade {
     color: white;
-    margin-top: 30px;
+    margin-top: 15px;
 }
